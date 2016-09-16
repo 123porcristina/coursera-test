@@ -1,13 +1,13 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: white;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #18e5d6;
   border-radius: 0;
   border: 0;
 }
@@ -20,11 +20,11 @@ body {
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 15px;
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #ff6e1f;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -78,7 +78,7 @@ body {
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
+  margin-top: -60px;
 }
 /* END HEADER */
 
@@ -120,6 +120,14 @@ body {
   border: 2px solid #3F0C1F;
 }
 
+#title {
+ margin-bottom: 15px;
+  color: #ff6e1f;
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
 #menu-tile, #specials-tile, #map-tile {
   height: 250px;
   width: 100%;
@@ -141,7 +149,7 @@ body {
 }
 #menu-tile span, #specials-tile span, #map-tile span {
   position: absolute;
-  bottom: 0;
+  bottom: -10;
   right: 0;
   width: 100%;
   text-align: center;
@@ -151,6 +159,8 @@ body {
   color: #fff;
   opacity: .8;
 }
+
+
 /* END HOME PAGE */
 
 /* MENU CATEGORIES PAGE */
